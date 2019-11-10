@@ -1,0 +1,735 @@
+/******************************************************************************************************************
+Ckm!
+Web, Apps & Multimedia
+www.ckm.co
+2013
+******************************************************************************************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@charset "utf-8";
+
+html, body {
+    height: 100%;
+}
+
+body  {
+	margin: 0;
+	padding: 0;
+	font: 80% 'Lato', Calibri, Arial, sans-serif;
+	color: #595959;
+	background: url(../img/bannerb.jpg) 0 0 repeat-x;
+	
+}
+
+.mitad{
+	margin: 0 auto;
+	width: 960px;
+}
+
+/************************************************************************************************/
+#header{
+	margin: 0 auto;
+	display: block;
+	padding-top: 11px;
+	width: 100%;
+	height: 173px;
+
+}
+
+#header .logo{ *float: left; }
+
+
+#header .dr .buscarForm a{
+	float: left;
+	margin: 0 10px 0 0;
+
+
+}
+
+#men_hor{
+	position: relative;
+	z-index: 10;
+	margin: 20px 0 0 20px;
+}
+
+/************************************************************************************************/
+#completo{
+	width: 100%;
+	margin: auto;
+	height: auto;
+/*	min-height: 82%;*/
+	height: 100%;
+	margin: 0 auto -115px;
+}
+/*
+#completo:after{
+	width: 100%;
+	height: 115px;
+	display:block;
+	clear:both;
+}
+*/
+
+#todo{
+	margin: 0 auto;
+	display: block;
+	width: 960px;
+	height: auto;
+}
+ 
+
+
+/************************************************************************************************/
+#cuerpo{
+	float: left;
+	margin: 0px 0 0 0;
+	padding: 0;
+	width: 960px;
+	min-height: 200px;
+}
+* #cuerpo{ 
+   height: expression( this.scrollHeight < 200 ? "200px" : "auto" ); /* sets min-height for IE */
+}
+
+
+#cuerpo h1{
+	font-size: 180%;
+	color: #006699;
+	
+}
+
+#cuerpo h2, #cuerpo h3, #cuerpo h4, #cuerpo h5{
+	color: #006699;
+}
+
+
+
+#cuerpo a{
+	transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+}
+#content{
+	margin: 0;
+	padding: 0;
+	height: 70px;
+}
+
+
+/************************************************************************************************/
+.inIzq{
+	float: left;
+	width: 729px;
+
+}
+
+
+
+.inIzq .doble ul li{
+	float: left;
+	margin: 0 40px 40px 0;
+	padding: 0;
+	width: 337px;
+}
+.inIzq .doble ul li.d{ margin: 0; }
+
+.inIzq .doble ul li h1{ margin: 0 0 16px 0; }
+
+.inIzq .doble ul li img{
+	float: left;
+	margin: 0 5px 5px 0;
+	border: 1px solid #D4CEBE;
+}
+.inIzq .doble ul li img.mes{
+	padding: 5px;
+	width: 111px;
+	background: #FFF;
+}
+
+.inIzq .doble ul li a, #info ul.noticias li a, #info .der a.vol, .triple ul li a, .simple a, .info_nutri a{
+	float: right;
+	padding: 5px 14px 5px 12px;
+	text-decoration: none;
+	color: #FFF;
+	background-color: #006699;
+
+	-moz-border-radius: 4px; /* Firefox*/
+	-ms-border-radius: 4px; /* IE 8.*/
+	-webkit-border-radius: 4px; /* Safari,Chrome.*/
+	border-radius: 4px; /* El estandar.*/
+}
+.inIzq .doble ul li a:hover, #info ul.noticias li a:hover, #info .der a.vol:hover{
+	background-color: #00476B;
+}
+
+
+
+.inIzq .doble ul.secc{
+	margin: 0 0 5px 0;
+	padding: 0 0 0 0;
+	background: none;
+}
+.inIzq .doble ul.secc li{
+	margin: 0 0 3px 0;
+	width: 100%;
+	text-align: left;
+	background: none;
+}
+.inIzq .doble ul.secc li a{
+	float: none;
+	padding: 0 0 0 5px;
+	color: #006699;
+	background: none;
+
+	-moz-border-radius: 0; /* Firefox*/
+	-ms-border-radius: 0; /* IE 8.*/
+	-webkit-border-radius: 0; /* Safari,Chrome.*/
+	border-radius: 0; /* El estandar.*/
+}
+.inIzq .doble ul.secc li a:hover{
+	color: #00476B;
+}
+
+.inIzq .simple{
+	float: left;
+	width: 714px;
+}
+.inIzq .simple ul img{
+	float: left;
+	margin-right: 25px;
+}
+.inIzq .simple ul h2{
+	font-size: 25px;
+	font-weight: bold;
+}
+.inIzq .simple ul a{
+	float: none;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.inDer{
+	float: left;
+	margin-left: 27px;
+	width: 204px;
+
+}
+
+.rohp{
+	color: #F47920;
+    text-align: center;
+    margin: 5px;
+    padding: 10px 0 0 0;
+    background-color: #083a59;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 5px solid #005883;
+
+
+}
+.rohp h1, h2{
+	color:white !important;
+}
+
+/************************************************************************************************/
+#footer{
+	clear: left;
+	float: left;
+/*	position: fixed;
+	bottom:0; */
+
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: 90px;
+	background: url(../img/footer.png) 0 100% repeat-x;
+}
+
+#footer .mitad{
+	font-size: 12px;
+	color:#f7a21e;
+	text-decoration: none;
+
+}
+
+#footer ul{
+	float: right;
+	padding: 0;
+	width: auto;
+	list-style: none;
+}
+#footer ul li{
+	float: left;
+	margin: 0;
+	padding: 0 7px 0 0;
+}
+#footer ul li a{
+	padding: 0 7px 0 0;
+	text-decoration: none;
+	color: #df7224;
+	border-right: 1px solid #555;
+}
+#footer ul li a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+#footer ul li.end, #footer ul li.end a{
+	padding: 0;
+	border: none;
+}
+
+#footer p{
+	margin: 88px 0 0 12px;
+	float: left;
+	color: #000;
+}
+/******************************************************************************************************************
+Ckm!
+Web, Apps & Multimedia
+www.ckm.co
+2013
+******************************************************************************************************************/
+
+
+/******************************************************************************************************************
+HORIZONTAL
+*******************************************************************************************************************/
+
+ul#navmenu-h {
+	margin: 0;
+	*margin-top: 24px;
+	padding: 0px;
+	width: 100%; /*For KHTML*/
+	list-style: none;
+	height: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+/*	border-left: 1px solid #DDD;*/
+}
+
+ul#navmenu-h li {
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+	float: left; /*For Gecko*/
+	display: inline;
+	list-style: none;
+	position: relative;
+	/*  height: 24px; ALTO NO DEJA CUADRARLO*/
+}
+
+ul#navmenu-h ul {
+	position: absolute;
+	display: none;
+
+	top: 20px;
+	left: -1px;
+
+	margin: 0;
+	padding: 0;
+	width: 160px;
+
+	list-style: none;
+	border: 0 none;
+}
+
+ul#navmenu-h ul:after /*From IE 7 lack of compliance*/{
+	clear: both;
+	display: block;
+	font: 1px/0px serif;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+ul#navmenu-h ul li {
+	width: 160px;
+	float: left; /*For IE 7 lack of compliance*/
+	display: block !important;
+	display: inline; /*For IE*/
+}
+
+
+/* Root Menu */
+ul#navmenu-h a {
+	float: none !important; /*For Opera*/
+	float: left; /*For IE*/
+	display: block;
+	
+	padding: 2px 16px;
+	padding: 2px 10px\9;
+	padding: 2px 8px;
+	height: auto !important;
+	height: 1%; /*For IE*/
+	
+	color: #000;
+/*	font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;*/
+	text-decoration: none;
+	
+	border-left: 1px solid #DDD;
+}
+
+ul#navmenu-h a.in{ border: none; }
+
+/* Root Menu Hover Persistence */
+ul#navmenu-h a:hover,
+ul#navmenu-h li:hover a,
+ul#navmenu-h li.iehover a {
+	color:#CCC;
+}
+
+/* 2nd Menu */
+ul#navmenu-h li:hover li a,
+ul#navmenu-h li.iehover li a {
+	float: none;
+	padding: 8px 16px;
+	color: #FFF;
+	background: #083a59;
+	border: none;
+	border-bottom:1px solid #DDD;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu-h li:hover li a:hover,
+ul#navmenu-h li:hover li:hover a,
+ul#navmenu-h li.iehover li a:hover,
+ul#navmenu-h li.iehover li.iehover a {
+	background: #f8ac1c;
+}
+
+/* 3rd Menu */
+ul#navmenu-h li:hover li:hover li a,
+ul#navmenu-h li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu-h li:hover li:hover li a:hover,
+ul#navmenu-h li:hover li:hover li:hover a,
+ul#navmenu-h li.iehover li.iehover li a:hover,
+ul#navmenu-h li.iehover li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 4th Menu */
+ul#navmenu-h li:hover li:hover li:hover li a,
+ul#navmenu-h li.iehover li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 4th Menu Hover */
+ul#navmenu-h li:hover li:hover li:hover li a:hover,
+ul#navmenu-h li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+}
+
+ul#navmenu-h ul ul,
+ul#navmenu-h ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu-h li:hover ul ul,
+ul#navmenu-h li:hover ul ul ul,
+ul#navmenu-h li.iehover ul ul,
+ul#navmenu-h li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu-h li:hover ul,
+ul#navmenu-h ul li:hover ul,
+ul#navmenu-h ul ul li:hover ul,
+ul#navmenu-h li.iehover ul,
+ul#navmenu-h ul li.iehover ul,
+ul#navmenu-h ul ul li.iehover ul {
+  display: block;
+}
+
+
+/******************************************************************************************************************
+VERTICAL
+*******************************************************************************************************************/
+ul#navmenu-v {
+	margin: 0;
+	padding: 0;
+	width: 170px;
+	list-style: none;
+	font-size: 100%;
+	background: url("../_interfAz_CK!/men_up.png") 0 0 no-repeat;
+}
+
+/*ul#navmenu-v,*/
+ul#navmenu-v li,
+ul#navmenu-v ul {
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+
+ul#navmenu-v:after /*From IE 7 lack of compliance*/{
+	clear: both;
+	display: block;
+	font: 1px/0px serif;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+ul#navmenu-v li {
+	float: left; /*For IE 7 lack of compliance*/
+	display: block !important; /*For GOOD browsers*/
+	display: inline; /*For IE*/
+	position: relative;
+}
+
+/* Root Menu */
+ul#navmenu-v a {
+	display: block;
+	height: auto !important;
+	height: 1%; /*For IE*/
+	margin: 0;
+	padding: 5px 5px 5px 10px;
+	width: 155px;
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: 1px solid #004D71;
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu-v a:hover,
+ul#navmenu-v li:hover a,
+ul#navmenu-v li.iehover a {
+	background: #0096DB;
+}
+
+
+/* 2nd Menu */
+ul#navmenu-v li:hover li a,
+ul#navmenu-v li.iehover li a {
+	background: #0096DB;
+	border: 1px solid #00486A;
+	border-top:1px solid #8CDAFF;
+	border-right:1px solid #8CDAFF;
+}
+ul#navmenu-v li ul a {
+}
+
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu-v li:hover li a:hover,
+ul#navmenu-v li:hover li:hover a,
+ul#navmenu-v li.iehover li a:hover,
+ul#navmenu-v li.iehover li.iehover a {
+	color: #000;
+	background: #42C1FF;
+	border: 1px solid #00486A;
+}
+
+/* 3rd Menu */
+ul#navmenu-v li:hover li:hover li a,
+ul#navmenu-v li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu-v li:hover li:hover li a:hover,
+ul#navmenu-v li:hover li:hover li:hover a,
+ul#navmenu-v li.iehover li.iehover li a:hover,
+ul#navmenu-v li.iehover li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 4th Menu */
+ul#navmenu-v li:hover li:hover li:hover li a,
+ul#navmenu-v li.iehover li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 4th Menu Hover */
+ul#navmenu-v li:hover li:hover li:hover li a:hover,
+ul#navmenu-v li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+}
+
+ul#navmenu-v ul,
+ul#navmenu-v ul ul,
+ul#navmenu-v ul ul ul {
+  display: none;
+  position: absolute;
+  top: -1px;
+  left: 170px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu-v li:hover ul ul,
+ul#navmenu-v li:hover ul ul ul,
+ul#navmenu-v li.iehover ul ul,
+ul#navmenu-v li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu-v li:hover ul,
+ul#navmenu-v ul li:hover ul,
+ul#navmenu-v ul ul li:hover ul,
+ul#navmenu-v li.iehover ul,
+ul#navmenu-v ul li.iehover ul,
+ul#navmenu-v ul ul li.iehover ul {
+  display: block;
+}
+
+
+/******************************************************************************************************************
+BUSCAR
+******************************************************************************************************************/
+.buscarForm{
+	float: left;
+	display: block;
+	margin: 30px 0 0 0;
+	padding: 0;
+	width: 100%;
+}
+
+.buscarForm form input{
+	float: left;
+	display: block;
+	margin: 0 0 0 4px;
+	padding: 0 4px;
+	width: 157px;
+	height: 36px;
+	color: #FFF;
+	border: none;
+	background: #F2F1ED;
+}
+.buscarForm form input.btBuscar{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 33px;
+	height: 36px;
+	text-indent: 1000px;
+	line-height: 1000px;
+	text-transform: capitalize;
+	overflow: hidden;
+	background: url(../_interfAz_CK!/buscar_btn.png) 0 0 no-repeat;
+	border: none;
+}
+.buscarForm form input.no_ver{ display: none; }
+
+.buscarForm form input.btBuscar:hover{ background-position: 0 100%; }
+
+#men_buscar{
+	margin: 0;
+	font-size: 90%;
+	color: #CCC;
+}
+#men_buscar p{ clear: both; text-align: right; margin:0; padding: 5px 0 0 0; }
+
+
+/******************************************************************************************************************
+MENU INF
+******************************************************************************************************************/
+.menInf{
+	position:relative;
+	float:left;
+	margin: 0 auto;
+	overflow:hidden;
+	width: 960px;
+	margin: 10px 0 0 0;
+	padding: 0;
+	border: 1px solid #FFF;
+}
+.menInf ul{
+	clear:left;
+	float:left;
+	position:relative;
+	list-style:none;
+	margin:0;
+	padding:0;
+	left:50%;
+	text-align:center;
+}
+.menInf ul li{
+	display:block;
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+	right:50%;
+}
+.menInf ul li a{
+	display: block;
+	margin: 0 0 0 1px;
+	padding: 2px 7px;
+	line-height:1.3em;
+	font-weight:bold;
+	color: #666;
+	text-decoration:none;
+	border-left: 1px solid #666;
+}
+.menInf ul li a.primer{ border: none; }
+
+.menInf ul li a:hover{
+	color: #002B71;
+}
+
+
+/******************************************************************************************************************
+NAVEGACION
+******************************************************************************************************************/
+#miga{
+	float: left;
+	display: block;
+	margin:0 0 10px 0;
+	padding: 5px 0;
+	width: 100%;
+	color: #00558F;
+	font: 110% 'HandelGotDLigRegular', sans-serif;
+	background: #CCC;
+}
+#miga a, #final a{
+	color: #0067AC;
+	text-decoration: none;
+}
+#miga a:hover, #final a:hover{
+	text-decoration: underline;
+	color: #666;
+}
+#final{
+	float:left;
+	width: 100%;
+	margin: 0;
+	padding-top: 10px;
+	font: 110% 'HandelGotDLigRegular', sans-serif;
+	border-top: 1px dotted #52A128;
+}
+
+#final a{
+	float: left;
+	display: block;
+	padding: 0 9px;
+	background: url('../_interfAz_CK!/navAtras.gif') left 0 no-repeat;
+}
+#final a.der{
+	float:right;
+	background:url('../_interfAz_CK!/navUp.gif') left 0 no-repeat;
+}
+#final a:hover{
+	background-position: left -14px;
+}
